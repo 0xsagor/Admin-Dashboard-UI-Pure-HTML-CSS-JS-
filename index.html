@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="dashboard">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>Dashboard</h2>
+    <ul>
+      <li>Overview</li>
+      <li>Users</li>
+      <li>Reports</li>
+      <li>Settings</li>
+    </ul>
+    <button onclick="toggleTheme()">Toggle Theme</button>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main">
+    <h1>Admin Overview</h1>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Users</h3>
+        <p>1,245</p>
+      </div>
+      <div class="card">
+        <h3>Revenue</h3>
+        <p>$12,300</p>
+      </div>
+      <div class="card">
+        <h3>Orders</h3>
+        <p>320</p>
+      </div>
+      <div class="card">
+        <h3>Errors</h3>
+        <p>3</p>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
